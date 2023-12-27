@@ -16,6 +16,6 @@ arrImages = arrImages.sort(() => Math.random() - 0.5);
 
 for (let key of arrImages) {
   let img = document.createElement("img");
-  img.src = "image/" + key;
+  img.src = "Image/" + key;
   imagelist.append(img);
 }
